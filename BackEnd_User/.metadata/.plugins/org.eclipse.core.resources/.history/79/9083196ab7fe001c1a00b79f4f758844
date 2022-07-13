@@ -1,0 +1,13 @@
+package fr.dawan.gestionUtilisateur.services;
+
+import java.util.List;
+
+import fr.dawan.gestionUtilisateur.entities.User;
+
+public interface IUserService {
+	List<User> getUsers();
+	User finfById(long id);
+	void deleteUserById(Long id);
+	User saveOrUpDate(User user);
+
+}

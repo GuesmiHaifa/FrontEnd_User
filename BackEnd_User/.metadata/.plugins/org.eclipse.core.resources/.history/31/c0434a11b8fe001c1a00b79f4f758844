@@ -1,0 +1,5 @@
+package fr.dawan.gestionUtilisateur.services;
+
+public class UserService {
+
+}
